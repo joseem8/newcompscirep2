@@ -1,0 +1,47 @@
+/*
+    Document   : intro.css
+    Created on : 2015-09-01 08:08 PM
+    Author     : Josesoswag
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+
+body {
+    background-color:#336699;
+        text-align:center;
+
+}
+h1 {
+    text-align:center;
+    color:black;
+    font-family:"Arial Black", Gadget, sans-serif;
+}
+p {
+    text-align:center;
+    color:black;
+    font-family:"Arial Black", Gadget, sans-serif;
+}
+h2 {
+    text-align:center;
+    color:black;
+    font-family:"Arial Black", Gadget, sans-serif;
+}
+li {
+    text-align:center;
+    color:black;
+    font-family:"Arial Black", Gadget, sans-serif;
+    display:inline-block;
+}
+
+a{
+    color: black;
+    transform: rotateX(0deg);
+        transition:0.5s all linear;
+    
+}
+a:hover{
+    color: red;
+        transform: rotateX(180deg);
+
+}

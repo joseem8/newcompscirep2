@@ -1,0 +1,47 @@
+/*
+    Document   : hardware.css
+    Created on : 2015-09-08 05:38 PM
+    Author     : Josesoswag
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+
+body {
+    background-color:#336699;
+        text-align:center;
+
+}
+h1 {
+    text-align:center;
+    color:white;
+    font-family:"Arial Black", Gadget, sans-serif;
+}
+p {
+    text-align:center;
+    color:white;
+    font-family:"Arial Black", Gadget, sans-serif;
+}
+h2 {
+    text-align:center;
+    color:white;
+    font-family:"Arial Black", Gadget, sans-serif;
+}
+li {
+    text-align:center;
+    color:white;
+    font-family:"Arial Black", Gadget, sans-serif;
+    display:inline-block;
+}
+
+a{
+    color: white;
+    transform: rotateX(0deg);
+        transition:0.5s all linear;
+    
+}
+a:hover{
+    color: green;
+        transform: rotateX(180deg);
+
+}
