@@ -45,3 +45,7 @@ a:hover{
         transform: rotateX(180deg);
 
 }
+h3 {
+    text-align:center;
+    color:white;
+    font-family:"Arial Black", Gadget, sans-serif;
