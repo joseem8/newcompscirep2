@@ -6,46 +6,66 @@
     Purpose of the stylesheet follows.
     To change this template use Tools | Templates.
 */
-
-body {
+ body {
     background-color:#336699;
-        text-align:center;
+    text-align:center;
+}
 
-}
 h1 {
-    text-align:center;
-    color:white;
-    font-family:"Arial Black", Gadget, sans-serif;
-}
-p {
-    text-align:center;
     color:white;
     font-family:"Arial Black", Gadget, sans-serif;
 }
 h2 {
-    text-align:center;
     color:white;
     font-family:"Arial Black", Gadget, sans-serif;
+    text-align:left;
 }
+
+
 li {
     text-align:center;
     color:white;
     font-family:"Arial Black", Gadget, sans-serif;
     display:inline-block;
 }
-
-a{
+a {
     color: white;
     transform: rotateX(0deg);
-        transition:0.5s all linear;
-    
+    transition:0.5s all linear;
 }
-a:hover{
+a:hover {
     color: green;
-        transform: rotateX(180deg);
-
+    transform: rotateX(180deg);
 }
 h3 {
     text-align:center;
     color:white;
+    font-family:"Arial Black", Gadget, sans-serif;   
+}   
+em {
+    color:turquoise;
     font-family:"Arial Black", Gadget, sans-serif;
+    transform: rotateX(0deg);
+        transition:0.5s all linear;          
+}
+em:hover{
+    color:turquoise;
+        transform: rotateX(360deg);
+}    
+h4 {
+    text-align:left;
+    color:white;
+    font-family:"Arial Black", Gadget, sans-serif;   
+}
+h5 {
+    color:white;
+    font-family:"Arial Black", Gadget, sans-serif;
+    
+}
+.right-h2 {
+    position:relative;
+    left:40%;
+}
+.swag-em {
+    color:yellowgreen;
+}

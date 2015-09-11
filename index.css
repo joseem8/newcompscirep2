@@ -42,6 +42,6 @@ a{
 }
 a:hover{
     color: red;
-        transform: rotateX(180deg);
+        transform: rotateX(360deg);
 
 }
