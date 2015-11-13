@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <link rel="stylesheet" href="list.css" type="text/css" />
+<style>
+  * {
+  text-align:center;
+  background-color:yellow;
+  }
+  
+li {
+    text-align:center;
+    color:black;
+    font-family:"Arial Black", Gadget, sans-serif;
+    display:inline-block;
+}
+
+a{
+    color: black;
+    transform: rotateX(0deg);
+        transition:0.5s all linear;
+    
+}
+a:hover{
+    color: red;
+        transform: rotateX(360deg);
+}
+
+  </style>
+</head>
+<body>
+   <div id="navBar">
+        <ul>
+     <li><a href="index.html">Welcome!</a></li>
+      <li><a href="aboutme.html">About Me!</a></li>
+      <li><a href="html.html">Html!</a></li>
+      <li><a href="hardware.html">Hardware!</a></li>
+      <li><a href="calc.html">Calculator!</a></li>
+      <li><a href="info.html">Info Page!</a></li>
+      <li><a href="list.html">Jose's list!</a></li>
+        </ul>
+    </div>
+    <h1 id="title">To Do List</h1>
+    <img src="http://41.media.tumblr.com/b56d3b7f3abd556cd32c6ffb9d36a5e2/tumblr_nrfpdgu5kF1uuqttlo1_250.png" width="150" height="150">
+    <form id="myform">
+      <div id="bar">
+        <div>Add item</div>
+        <input type="text" id="newitem" />
+        <select id="dropdown">
+          <option value="tripleb">important</option>
+          <option value="bwekfast">Not really</option>
+          <option value="mcfallen">ehh?</option>
+          <option value="stawp">nahh</option>
+        </select>
+        <input type="submit" />
+      </div>
+    </form>
+
+  <div id="todolist"></div>
+
+
+  <script src="list.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+
+h1 {
+    color:white;
+    font-family:helvetica;
+}
+h3 {
+    color:white;
+}
+
+#info1,#info2,#info3,#info4 {
+    color:white;
+    font-family:helvetica;
+    font-size:25px;
+}
+
+h4{
+    color:white;
+    font-family:helvetica;
+}
+em {
+    color:yellow;
+}
+em:hover{
+    color: red;
+        transform: rotateX(360deg);
+}
+img:hover{
+    color:turquoise;
+        transform: rotateX(360deg);
+}
+
+li {
+    text-align:center;
+    color:black;
+    font-family:"Arial Black", Gadget, sans-serif;
+    display:inline-block;
+}
+
+a{
+    color: purple;
+    transform: rotateX(0deg);
+        transition:0.5s all linear;
+    
+}
+a:hover{
+    color: yellow;
+        transform: rotateX(360deg);
+}
