@@ -10,6 +10,7 @@
  body {
     background-color:#336699;
     text-align:center;
+    font-family:"Comic Sans MS", cursive, sans-serif;
 }
 li {
     text-align:center;
@@ -26,9 +27,7 @@ a:hover {
     color: blue;
     transform: rotateX(360deg);
 }
-.swaggg {
     
-}
 em:hover{
     color:turquoise;
         transform: rotateX(360deg);

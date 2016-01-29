@@ -1,27 +1,28 @@
 
 h1 {
-    color:white;
-    font-family:helvetica;
+    color:Black;
+    font-family:"Comic Sans MS", cursive, sans-serif;
 }
 h3 {
-    color:white;
-}
-
-#info1,#info2,#info3,#info4 {
-    color:white;
-    font-family:helvetica;
-    font-size:25px;
+    color:Black;
+    font-family:"Comic Sans MS", cursive, sans-serif;
 }
 
 h4{
-    color:white;
-    font-family:helvetica;
+    color:Black;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    text-align:center;
+    
+}
+h5 {
+    color:blue;
+    
 }
 em {
-    color:yellow;
+    color:#990000;
 }
 em:hover{
-    color: red;
+    color:#00b36a;
         transform: rotateX(360deg);
 }
 img:hover{
@@ -37,12 +38,12 @@ li {
 }
 
 a{
-    color: white;
+    color: black;
     transform: rotateX(0deg);
         transition:0.5s all linear;
     
 }
 a:hover{
-    color: yellow;
+    color:#990000;
         transform: rotateX(360deg);
 }
